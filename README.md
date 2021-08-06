@@ -6,7 +6,7 @@ Here is the [live site](http://www.rupeshtiwari.com/ng-show-angular11/) to see h
 
 ## Example to use ngShow
 
-![]()
+![](https://github.com/rupeshtiwari/ng-show-angular11/blob/main/docs/demo.GIF)
 
 ```html
 <button [ngShow]="show">Create</button>
