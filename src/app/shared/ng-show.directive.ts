@@ -1,8 +1,4 @@
-// tslint:disable: directive-selector
-// tslint:disable: directive-class-suffix
-
 import { Directive, ElementRef, Input } from '@angular/core';
-
 
 /**
  * ## Example
@@ -18,7 +14,7 @@ import { Directive, ElementRef, Input } from '@angular/core';
 @Directive({
   selector: '[ngShow]',
 })
-export class NgShow {
+export class NgShowDirective {
   constructor(private ngEl: ElementRef) {}
 
   @Input()

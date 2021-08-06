@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { NgShow } from './ng-show.directive';
+import { NgShowDirective } from './ng-show.directive';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [NgShow],
-  exports: [NgShow],
+  declarations: [NgShowDirective],
+  exports: [NgShowDirective],
 })
 export class SharedModule {}
